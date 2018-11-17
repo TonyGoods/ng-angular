@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Wechat auto search",
+    "description": "Auto search admin portal"
+  },
+  "user": {
+    "name": "Vincent",
+    "avatar": "./assets/tmp/img/avatar.jpg",
+    "email": "hchen180@its.jnj.com"
+  },
+  "menu": [
+    {
+      "text": "主导航",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "Keywords Management",
+          "link": "/search/keywordManager",
+          "icon": "anticon anticon-dashboard"
+        },
+        {
+          "text": "Search Result",
+          "link":"/search/search",
+          "icon": "anticon anticon-appstore-o",
+          "shortcutRoot": true
+        }
+      ]
+    }
+  ]
+}
